@@ -1,3 +1,5 @@
+using System.Numerics;
+
 namespace PowPaw
 {
     public sealed class BlockFactory
@@ -7,9 +9,9 @@ namespace PowPaw
             throw new InvalidOperationException("Utility class");
         }
 
-        public static BlockImpl CreateBlock(double x, double y)
+        public static Block CreateBlock(float x, float y)
         {
-            return new BlockImpl(new Vector2(x, y), 1, 1);
+            return new Block(new Vector2(x, y), 1, 1);
         }
     }
 }
