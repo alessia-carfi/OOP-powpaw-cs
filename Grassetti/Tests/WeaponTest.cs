@@ -1,12 +1,10 @@
 using PowPaw;
-using System.Numerics;
 
 namespace Tests;
 
 [TestClass]
 public class WeaponTest
 {
-    private static readonly Vector2 INIZIAL_POSITION = new Vector2(0, 0);
     private const int DEBUG_DURABILITY = 1;
     private const int WEAPOIN_ID_ZERO = 0;
     private const int WEAPOIN_ID_ONE = 1;
