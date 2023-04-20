@@ -1,5 +1,3 @@
-using System.Threading.Tasks;
-
 namespace PowerUpAndStats
 {
     public class SpeedPowerUp : PowerUp
