@@ -2,7 +2,7 @@ namespace PowPaw
 {
     public class KeyObservable : IKeyObservable
     {
-        private readonly List<KeyObserver> _observers = new List<KeyObserver>();
+        private readonly List<KeyObserver> _observers = new();
 
         public void AddObserver(KeyObserver observer)
         {

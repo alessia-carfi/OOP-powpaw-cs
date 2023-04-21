@@ -23,7 +23,7 @@ namespace PowPaw
         private PlayerState _currentState;
         private Vector2 _position;
         private Vector2 _direction;
-        private int speed = 4;
+        private readonly int speed = 4;
         private double _width;
         private double _height;
         private readonly int _number;
@@ -31,7 +31,6 @@ namespace PowPaw
         private bool _isMovingLeft;
         private bool _isMovingRight;
         private bool _isAttacking;
-        private bool _isHit;
         private bool _isDodging;
         private bool _canMove = true;
 

@@ -3,7 +3,7 @@ namespace PowPaw
     public class KeyObserver : IKeyObserver
     {
         private readonly Player _player;
-        private readonly HashSet<ConsoleKey> _keys = new HashSet<ConsoleKey>();
+        private readonly HashSet<ConsoleKey> _keys = new();
         public KeyObserver(Player player)
         {
             _player = player;

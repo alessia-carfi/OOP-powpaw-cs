@@ -3,14 +3,8 @@ namespace PowPaw
     public class PlayerObservable : IPlayerObservable
     {
         private readonly List<Player> _playerList;
-        private readonly KeyObservable _observable = new KeyObservable();
+        private readonly KeyObservable _observable = new();
 
-        /**
-         * Constructor of the class. Initializes the list of players, the configuration
-         * file parser and sets the attack controller and key observers for each player.
-         * 
-         * @param playerList the list of players to be kept track of.
-         */
         public PlayerObservable(List<Player> playerList)
         {
             _playerList = playerList;

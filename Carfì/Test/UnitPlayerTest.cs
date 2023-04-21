@@ -11,7 +11,7 @@ public class UnitPlayerTest
     private const double DEBUG_PLAYER_WIDHT = 5;
     private const double DEBUG_PLAYER_HEIGHT = 10;
 
-    private readonly Player _player = new Player(Vector2.Zero, DEBUG_PLAYER_NUMBER);
+    private readonly Player _player = new(Vector2.Zero, DEBUG_PLAYER_NUMBER);
 
 
     [TestMethod]
